@@ -116,7 +116,6 @@ def index():
         f_ = [os.path.join(root,name) for name in files]
         random.shuffle(f_)
         for filename in f_:
-            print("filename: ", filename)
             # load the images
             if filename.endswith('.png'):
                 images.append({'src': filename})
