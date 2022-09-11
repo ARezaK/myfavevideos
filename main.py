@@ -50,13 +50,13 @@ video::-webkit-media-controls {
     display:none !important;
 }
 </style>
-
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
 </head>
 <body>
 
 {% for video in videos %}
-<video width="420" height="500" controls loop preload="metadata">
-  <source src="{{video.src}}#t=0.1" type="video/mp4">
+<video class='lazy' width="420" height="500" controls loop preload="metadata">
+  <source data-src="{{video.src}}#t=0.1" type="video/mp4">
 </video>
     <a href="delete/{{video.src}}">delete</a>
 {% endfor %}
@@ -79,6 +79,11 @@ function hoverVideo(e) {
 function hideVideo(e) {
     $('video', this).get(0).pause(); 
 }
+</script>
+<script>
+var lazyLoadInstance = new LazyLoad({
+  // Your custom settings go here
+});
 </script>
 
 </body>
