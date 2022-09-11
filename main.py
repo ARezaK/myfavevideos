@@ -2,11 +2,10 @@
 #!/bin/python
 
 import os
+import random
 from flask import Flask, Response, request, abort, render_template_string, send_from_directory
 from PIL import Image
 from io import StringIO
-import cv2
-import sys
 
 app = Flask(__name__)
 
@@ -38,36 +37,57 @@ box-shadow: 0 0 10px rgba(0,0,0,0.3);
 img {
 display: block;
 }
+
+.video {
+  background-image: url('https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg');
+  height: 500px;
+  width: 600px;
+  margin-bottom: 50px;
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
 </style>
-<script src="https://code.jquery.com/jquery-1.10.2.min.js" charset="utf-8"></script>
 
 </head>
 <body>
+
+{% for video in videos %}
+<video width="420" height="500" controls loop>
+  <source src="{{video.src}}" type="video/mp4">
+</video>
+    <a href="delete/{{video.src}}">delete</a>
+{% endfor %}
+
 {% for image in images %}
-    <a class="image" href="{{ image.src }}" style="width: {{ image.width }}px; height: {{ image.height }}px; color:#d0d0d0; background-color:#0000a0;">
-        <img src="{{ image.image_src }}" data-src="{{ image.src }}?w={{ image.width }}&amp;h={{ image.height }}" width="{{ image.width }}" height="{{ image.height }}" />
+    <a class="image" href="{{ image.src }}" >
+        <img src="{{ image.src }}" />
         {{image.src}}
     </a>
+     <a href="delete/{{image.src}}">delete</a>
 {% endfor %}
+
+<script>
+var figure = $(".video").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {  
+    $('video', this).get(0).play(); 
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause(); 
+}
+</script>
+
 </body>
 '''
 
 
-def generate_thumbnail(filename):
-    vidcap = cv2.VideoCapture(filename)
-    success, image = vidcap.read()
-    count = 0
-
-    while count < 25:
-        cv2.imwrite("%s.%s" % (filename.replace('#', '%23').replace('.mp4', ''), file_format), image)  # save frame
-        success, image = vidcap.read()
-        count += 1
-    print("all done")
-
-
 @app.route('/<path:filename>')
 def image(filename):
-    print(filename)
+    # print(filename)
     try:
         w = int(request.args['w'])
         h = int(request.args['h'])
@@ -77,11 +97,12 @@ def image(filename):
     try:
         im = Image.open(filename)
         im.thumbnail((w, h), Image.ANTIALIAS)
-        io = StringIO.StringIO()
+        io = StringIO()
         im.save(io, format='gif')
         return Response(io.getvalue(), mimetype='image/gif')
 
     except IOError:
+        print("IOError: %s" % filename)
         abort(404)
 
     return send_from_directory('.', filename)
@@ -89,35 +110,34 @@ def image(filename):
 
 @app.route('/')
 def index():
+    videos = []
     images = []
     for root, dirs, files in os.walk('.'):
-        for filename in [os.path.join(root, name) for name in files]:
-            if not filename.endswith('.mp4'):
-                continue
-            if not os.path.isfile(filename.replace('#', '%23').replace('mp4', '%s' % file_format)):
-                # generate the image
-                print("need to generate")
-                generate_thumbnail(filename=filename)
-
-            im = Image.open(filename.replace('#', '%23').replace('mp4', '%s' % file_format))
-            w, h = im.size
-            aspect = 1.0*w/h
-            if aspect > 1.0*WIDTH/HEIGHT:
-                width = min(w, WIDTH)
-                height = width/aspect
-            else:
-                height = min(h, HEIGHT)
-                width = height*aspect
-            images.append({
-                'width': int(width),
-                'height': int(height),
-                'image_src': filename.replace('#', '%23').replace('mp4', '%s' % file_format),
-                'src': filename.replace('#', '%23')
-            })
+        f_ = [os.path.join(root,name) for name in files]
+        random.shuffle(f_)
+        for filename in f_:
+            print("filename: ", filename)
+            # load the images
+            if filename.endswith('.png'):
+                images.append({'src': filename})
+            if filename.endswith('.mp4'):
+                videos.append({
+                    'image_src': filename.replace('#', '%23').replace('mp4', '%s' % file_format),
+                    'src': filename.replace('#', '%23')
+                })
 
     return render_template_string(TEMPLATE, **{
-        'images': images
+        'images': images,
+        'videos': videos
     })
+
+
+@app.route('/delete/<path:filename>')
+def delete(filename):
+    print("delete %s" % filename)
+    os.remove(filename)
+    os.remove(filename.replace('#', '%23').replace('mp4', '%s' % file_format))
+    return "deleted"
 
 
 if __name__ == '__main__':
