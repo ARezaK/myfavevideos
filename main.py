@@ -55,8 +55,8 @@ video::-webkit-media-controls {
 <body>
 
 {% for video in videos %}
-<video width="420" height="500" controls loop>
-  <source src="{{video.src}}" type="video/mp4">
+<video width="420" height="500" controls loop preload="metadata">
+  <source src="{{video.src}}#t=0.1" type="video/mp4">
 </video>
     <a href="delete/{{video.src}}">delete</a>
 {% endfor %}
@@ -139,6 +139,7 @@ def delete(filename):
     os.remove(filename.replace('#', '%23').replace('mp4', '%s' % file_format))
     return "deleted"
 
+
 @app.route('/upload', methods=['POST'])
 def upload():
     print(request.files)
@@ -152,6 +153,7 @@ def upload():
         # save in videos folder
         file.save(os.path.join(dir_path + "/videos", file.filename))
     return "uploaded"
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=False, threaded=True)
