@@ -5,7 +5,7 @@ services:
     build: .
     container_name: video_web
     ports:
-      - "5000:5000"
+      - "8025:80"
     restart: always
     volumes: # Mounts the current directory to the container so that changes are reflected
       - .:/app

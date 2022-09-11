@@ -4,13 +4,11 @@
 import os
 from flask import Flask, Response, request, abort, render_template_string, send_from_directory
 from PIL import Image
-import StringIO
+from io import StringIO
 import cv2
 import sys
 
 app = Flask(__name__)
-reload(sys)
-sys.setdefaultencoding('utf8')
 
 dir_path = os.path.dirname(os.path.abspath(__file__))
 print(dir_path)
