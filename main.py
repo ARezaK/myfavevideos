@@ -140,7 +140,6 @@ def index():
 def delete(filename):
     print("delete %s" % filename)
     os.remove(filename)
-    os.remove(filename.replace('#', '%23').replace('mp4', '%s' % file_format))
     return "deleted"
 
 
