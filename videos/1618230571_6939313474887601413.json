@@ -1,0 +1,146 @@
+{
+    "extra": {
+        "fatal_item_ids": [],
+        "logid": "202209092008220101920580880E306179",
+        "now": 1662754103000
+    },
+    "itemInfo": {
+        "itemStruct": {
+            "adAuthorization": false,
+            "adLabelVersion": 0,
+            "author": {
+                "avatarLarger": "https://p16-sign-va.tiktokcdn.com/musically-maliva-obj/1652224698013701~c5_1080x1080.jpeg?x-expires=1662926400&x-signature=PlTSJFTzZc2DiLF37QhP6Vo%2Fpqo%3D",
+                "avatarMedium": "https://p16-sign-va.tiktokcdn.com/musically-maliva-obj/1652224698013701~c5_720x720.jpeg?x-expires=1662926400&x-signature=R2rrUoC3w2GQxg1pjSPoxkly37s%3D",
+                "avatarThumb": "https://p16-sign-va.tiktokcdn.com/musically-maliva-obj/1652224698013701~c5_100x100.jpeg?x-expires=1662926400&x-signature=TmDEHHJnDXWxu6Dv%2FzDt67IelFA%3D",
+                "commentSetting": 0,
+                "downloadSetting": 0,
+                "duetSetting": 0,
+                "ftc": false,
+                "id": "6767511710267245573",
+                "isADVirtual": false,
+                "nickname": "magicharps",
+                "openFavorite": false,
+                "privateAccount": false,
+                "relation": 0,
+                "secUid": "MS4wLjABAAAA67kLE2pJ9CgdppWOiPld_UtND6rpm6k2aS4ZSO2m8uTJE5xAOBjq_cYQBxa7RSSi",
+                "secret": false,
+                "signature": "niche sketches and 30 fps tweets into the void",
+                "stitchSetting": 0,
+                "ttSeller": false,
+                "uniqueId": "magicharps",
+                "verified": false
+            },
+            "authorStats": {
+                "diggCount": 29800,
+                "followerCount": 19200,
+                "followingCount": 443,
+                "heart": 2100000,
+                "heartCount": 2100000,
+                "videoCount": 185
+            },
+            "createTime": 1615684827,
+            "desc": "",
+            "digged": false,
+            "duetDisplay": 0,
+            "duetEnabled": true,
+            "duetInfo": {
+                "duetFromId": "0"
+            },
+            "forFriend": false,
+            "id": "6939313474887601413",
+            "isActivityItem": false,
+            "isAd": false,
+            "itemCommentStatus": 0,
+            "itemMute": false,
+            "mixInfo": {
+                "id": "7120300755999050542",
+                "name": "viral",
+                "videoCount": 3
+            },
+            "music": {
+                "album": "",
+                "authorName": "Seth",
+                "coverLarge": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/bd540d06e6bf1665ecd9737b0c88089b~c5_1080x1080.jpeg?x-expires=1662926400&x-signature=ZS5FHVF01OMtEBjxUYsUmT%2BTWng%3D",
+                "coverMedium": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/bd540d06e6bf1665ecd9737b0c88089b~c5_720x720.jpeg?x-expires=1662926400&x-signature=XkKBefeEnHQKRkc6iU4KrbcLrvA%3D",
+                "coverThumb": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/bd540d06e6bf1665ecd9737b0c88089b~c5_100x100.jpeg?x-expires=1662926400&x-signature=5pyA%2B5Hnm4LI%2BXW0ekMFD9%2Fp8LE%3D",
+                "duration": 25,
+                "id": "6935088150515698437",
+                "original": true,
+                "playUrl": "https://sf16-ies-music-va.tiktokcdn.com/obj/musically-maliva-obj/6990372475754793733.mp3",
+                "title": "dunkeygabagoo"
+            },
+            "officalItem": false,
+            "originalItem": false,
+            "privateItem": false,
+            "secret": false,
+            "shareEnabled": true,
+            "showNotPass": false,
+            "stats": {
+                "commentCount": 839,
+                "diggCount": 118300,
+                "playCount": 793800,
+                "shareCount": 2693
+            },
+            "stickersOnItem": [
+                {
+                    "stickerText": [
+                        "these are some tattoos I\u2019d get if i wasnt afraid of the general concept of permanence ",
+                        "Patrick Starburns",
+                        "Annie\u2019s Mac and Cheese barcode",
+                        "Atlas holding up Slovenia",
+                        "\u201chelvetica\u201d written in papyrus",
+                        "the treaty of\nguadalupe hidalgo"
+                    ],
+                    "stickerType": 4
+                }
+            ],
+            "stitchDisplay": 0,
+            "stitchEnabled": true,
+            "video": {
+                "bitrate": 945681,
+                "codecType": "h264",
+                "cover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/3659c006b6a141eb90477c688f199363?x-expires=1662775200&x-signature=sxNWYkc%2FquBzAIPbnmmw5dpSqBU%3D",
+                "definition": "720p",
+                "downloadAddr": "https://v16-webapp.tiktok.com/cb17c6047e1a16f02de832307d91123a/631bf1a8/video/tos/useast2a/tos-useast2a-pve-0068/367b84c0b526441386ef2e2c0786322b/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=1846&bt=923&cs=0&ds=3&ft=eXd.6H-qMyq8ZSkDxhe2NUywyl7Gb&mime_type=video_mp4&qs=0&rc=NDtnPGUzOTY4Z2ZpMzYzNkBpM2o0eDZyZm1wNDMzOjczM0A0LmNiLS4xNTIxMV4uNjNeYSNxYmJlNXNmNjNgLS02MTZzcw%3D%3D&l=202209092008220101920580880E306179&btag=80000",
+                "duration": 17,
+                "dynamicCover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/9f2811fec6044edca554e11b755c9e3e_1615684838?x-expires=1662775200&x-signature=WjbTlThW7nSbBkGnOyQZkv%2BRZSo%3D",
+                "encodeUserTag": "",
+                "encodedType": "normal",
+                "format": "mp4",
+                "height": 1024,
+                "id": "6939313474887601413",
+                "originCover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/8cf22cfff24849a2b934d38c8c56b454_1615684844?x-expires=1662775200&x-signature=%2FtE%2F64x0FVbOdM83lb9QElA04Pk%3D",
+                "playAddr": "https://v16-webapp.tiktok.com/cb17c6047e1a16f02de832307d91123a/631bf1a8/video/tos/useast2a/tos-useast2a-pve-0068/367b84c0b526441386ef2e2c0786322b/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=1846&bt=923&cs=0&ds=3&ft=eXd.6H-qMyq8ZSkDxhe2NUywyl7Gb&mime_type=video_mp4&qs=0&rc=NDtnPGUzOTY4Z2ZpMzYzNkBpM2o0eDZyZm1wNDMzOjczM0A0LmNiLS4xNTIxMV4uNjNeYSNxYmJlNXNmNjNgLS02MTZzcw%3D%3D&l=202209092008220101920580880E306179&btag=80000",
+                "ratio": "720p",
+                "reflowCover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/3659c006b6a141eb90477c688f199363?x-expires=1662775200&x-signature=sxNWYkc%2FquBzAIPbnmmw5dpSqBU%3D",
+                "shareCover": [
+                    "",
+                    "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/8cf22cfff24849a2b934d38c8c56b454_1615684844~tplv-tiktok-play.jpeg?x-expires=1663358400&x-signature=KoU5Y202r4xgNi57PN%2BvWQalY%2Fw%3D",
+                    "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/8cf22cfff24849a2b934d38c8c56b454_1615684844~tplv-tiktokx-share-play.jpeg?x-expires=1663358400&x-signature=5Xs%2FX6k8t5ZoDVbFg6pdh81Jnow%3D"
+                ],
+                "videoQuality": "normal",
+                "volumeInfo": {
+                    "Loudness": -22.5,
+                    "Peak": 0.74131
+                },
+                "width": 576,
+                "zoomCover": {
+                    "240": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/3659c006b6a141eb90477c688f199363~tplv-f5insbecw7-1:240:240.jpeg?x-expires=1662775200&x-signature=TNru7l1J%2BB2vb27AcBoZUu99uXo%3D",
+                    "480": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/3659c006b6a141eb90477c688f199363~tplv-f5insbecw7-1:480:480.jpeg?x-expires=1662775200&x-signature=wyX3m4HP24CKoklCst4NRcjSia8%3D",
+                    "720": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/3659c006b6a141eb90477c688f199363~tplv-f5insbecw7-1:720:720.jpeg?x-expires=1662775200&x-signature=fVZTxekz68qwxKVvWkEsCXjJwFU%3D",
+                    "960": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/3659c006b6a141eb90477c688f199363~tplv-f5insbecw7-1:960:960.jpeg?x-expires=1662775200&x-signature=FfKb%2FqGERHzOF1690xgVaC1Y0j0%3D"
+                }
+            },
+            "vl1": false
+        }
+    },
+    "log_pb": {
+        "impr_id": "202209092008220101920580880E306179"
+    },
+    "shareMeta": {
+        "desc": "magicharps's short video with \u266c dunkeygabagoo",
+        "title": "magicharps on TikTok"
+    },
+    "statusCode": 0,
+    "status_code": 0
+}

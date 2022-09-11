@@ -1,0 +1,206 @@
+{
+    "extra": {
+        "fatal_item_ids": [],
+        "logid": "20220909201005010192058077272EB0CB",
+        "now": 1662754205000
+    },
+    "itemInfo": {
+        "itemStruct": {
+            "adAuthorization": false,
+            "adLabelVersion": 0,
+            "author": {
+                "avatarLarger": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ce490db8ce92b8fedbb15ce2f600d404~c5_1080x1080.jpeg?x-expires=1662926400&x-signature=07WkGrc0LrHAav2OffM2QYlQVFI%3D",
+                "avatarMedium": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ce490db8ce92b8fedbb15ce2f600d404~c5_720x720.jpeg?x-expires=1662926400&x-signature=cVyxhL5Mex9DAQaEgC5ITo%2Fzun4%3D",
+                "avatarThumb": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/ce490db8ce92b8fedbb15ce2f600d404~c5_100x100.jpeg?x-expires=1662926400&x-signature=KzsTZggU0XvKmBGOSwwgwDdpRL0%3D",
+                "commentSetting": 0,
+                "downloadSetting": 0,
+                "duetSetting": 0,
+                "ftc": false,
+                "id": "69682864866361344",
+                "isADVirtual": false,
+                "nickname": "Mr. Michael",
+                "openFavorite": false,
+                "privateAccount": false,
+                "relation": 0,
+                "secUid": "MS4wLjABAAAAYaSEFdrizsrFB6RcN0PBpU-cLPsROhv5xG0xObE1Dv7UgvCjcHMZgHXAYEsJT9sr",
+                "secret": false,
+                "signature": "I make videos with animals",
+                "stitchSetting": 0,
+                "ttSeller": false,
+                "uniqueId": "mr.michael_9",
+                "verified": false
+            },
+            "authorStats": {
+                "diggCount": 402,
+                "followerCount": 876300,
+                "followingCount": 60,
+                "heart": 10400000,
+                "heartCount": 10400000,
+                "videoCount": 113
+            },
+            "challenges": [
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "229207",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 1700000000,
+                        "viewCount": 0
+                    },
+                    "title": "fyp"
+                },
+                {
+                    "coverLarger": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/ff986a36b43721e466a7686b2caf7f5b",
+                    "coverMedium": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/ff986a36b43721e466a7686b2caf7f5b",
+                    "coverThumb": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/ff986a36b43721e466a7686b2caf7f5b",
+                    "desc": "Throw on a scarf and get moving.",
+                    "id": "215145",
+                    "isCommerce": false,
+                    "profileLarger": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/6a32fd37ff605852ed39474859aeacdf",
+                    "profileMedium": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/6a32fd37ff605852ed39474859aeacdf",
+                    "profileThumb": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/6a32fd37ff605852ed39474859aeacdf",
+                    "stats": {
+                        "videoCount": 100500,
+                        "viewCount": 0
+                    },
+                    "title": "pleasedontgo"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "\u6bdb\u5c0f\u5b69\u7684\u54ea\u4e9b\u8209\u52d5\u8b93\u4f60\u6367\u8179\u5927\u7b11\uff1f\u8d95\u5feb\u4f86\u548c\u5927\u5bb6\u5206\u4eab\u5427\uff01",
+                    "id": "1683036738814982",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 2791,
+                        "viewCount": 0
+                    },
+                    "title": "\u840c\u5bf5\u641e\u7b11\u5408\u96c6"
+                }
+            ],
+            "createTime": 1617900785,
+            "desc": "phil and me cruising #fyp #pleasedontgo",
+            "digged": false,
+            "duetDisplay": 0,
+            "duetEnabled": false,
+            "duetInfo": {
+                "duetFromId": "0"
+            },
+            "forFriend": false,
+            "id": "6948830947538160902",
+            "isActivityItem": false,
+            "isAd": false,
+            "itemCommentStatus": 0,
+            "itemMute": false,
+            "music": {
+                "album": "31 Minutes to Takeoff",
+                "authorName": "Mike Posner",
+                "coverLarge": "https://p16-amd-va.tiktokcdn.com/img/tos-useast2a-v-2774/92fdf5a51f7e49578a12bb2dd64c5820~c5_720x720.jpeg",
+                "coverMedium": "https://p16-amd-va.tiktokcdn.com/img/tos-useast2a-v-2774/92fdf5a51f7e49578a12bb2dd64c5820~c5_200x200.jpeg",
+                "coverThumb": "https://p16-amd-va.tiktokcdn.com/img/tos-useast2a-v-2774/92fdf5a51f7e49578a12bb2dd64c5820~c5_100x100.jpeg",
+                "duration": 15,
+                "id": "6598704368726313733",
+                "original": false,
+                "playUrl": "https://sf16-ies-music-va.tiktokcdn.com/obj/tos-useast2a-ve-2774/8df3050067c8478c81ace88165f09c90",
+                "title": "Please Don't Go"
+            },
+            "officalItem": false,
+            "originalItem": false,
+            "privateItem": false,
+            "secret": false,
+            "shareEnabled": true,
+            "showNotPass": false,
+            "stats": {
+                "commentCount": 38100,
+                "diggCount": 3600000,
+                "playCount": 20300000,
+                "shareCount": 240700
+            },
+            "stitchDisplay": 0,
+            "stitchEnabled": true,
+            "textExtra": [
+                {
+                    "awemeId": "",
+                    "end": 25,
+                    "hashtagId": "229207",
+                    "hashtagName": "fyp",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 21,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 39,
+                    "hashtagId": "215145",
+                    "hashtagName": "pleasedontgo",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 26,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                }
+            ],
+            "video": {
+                "bitrate": 929716,
+                "codecType": "h264",
+                "cover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/943ea912edb44a08a0c2b640daab703b_1617900787?x-expires=1662775200&x-signature=X6uE6dG9oRpwGfrkQ4d3ZahNOzI%3D",
+                "definition": "720p",
+                "downloadAddr": "https://v16-webapp.tiktok.com/fc32cbbe8356316206802c1b1713ed56/631bf20b/video/tos/useast2a/tos-useast2a-pve-0068/ed7ac7cc492a4261b5acb58cb760a9c0/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=1814&bt=907&cs=0&ds=3&ft=eXd.6H-qMyq8Zq-Dxhe2NJf3yl7Gb&mime_type=video_mp4&qs=0&rc=aDM2Zjk6aWc1aDQ7Njo5Z0Bpajw5aG9kb3RtNDMzNzczM0A0MGMzMDQzNWMxYjJjYmNeYSNhb3BoYWliNmtgLS1kMTZzcw%3D%3D&l=20220909201005010192058077272EB0CB&btag=80000",
+                "duration": 14,
+                "dynamicCover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/c2f1690a9d8f4e86b2ccd95197f6be31_1617900789?x-expires=1662775200&x-signature=10TpmYV9dhUKnwtldLnNzvbtY6c%3D",
+                "encodeUserTag": "",
+                "encodedType": "normal",
+                "format": "mp4",
+                "height": 1024,
+                "id": "6948830947538160902",
+                "originCover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/c243d3c3fc9e4b419395d249a8195b10_1617900788?x-expires=1662775200&x-signature=b1ZUGGLD3RN0%2B%2FtPUDiPubenKbk%3D",
+                "playAddr": "https://v16-webapp.tiktok.com/fc32cbbe8356316206802c1b1713ed56/631bf20b/video/tos/useast2a/tos-useast2a-pve-0068/ed7ac7cc492a4261b5acb58cb760a9c0/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=1814&bt=907&cs=0&ds=3&ft=eXd.6H-qMyq8Zq-Dxhe2NJf3yl7Gb&mime_type=video_mp4&qs=0&rc=aDM2Zjk6aWc1aDQ7Njo5Z0Bpajw5aG9kb3RtNDMzNzczM0A0MGMzMDQzNWMxYjJjYmNeYSNhb3BoYWliNmtgLS1kMTZzcw%3D%3D&l=20220909201005010192058077272EB0CB&btag=80000",
+                "ratio": "720p",
+                "reflowCover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/943ea912edb44a08a0c2b640daab703b_1617900787?x-expires=1662775200&x-signature=X6uE6dG9oRpwGfrkQ4d3ZahNOzI%3D",
+                "shareCover": [
+                    "",
+                    "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/c243d3c3fc9e4b419395d249a8195b10_1617900788~tplv-tiktok-play.jpeg?x-expires=1663358400&x-signature=6q3UCFGERL3NSypvLeF7YbMbYjs%3D",
+                    "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/c243d3c3fc9e4b419395d249a8195b10_1617900788~tplv-tiktokx-share-play.jpeg?x-expires=1663358400&x-signature=dGFYA5D3FQP3HyNzxpQyJUVkDzo%3D"
+                ],
+                "videoQuality": "normal",
+                "volumeInfo": {
+                    "Loudness": -16.8,
+                    "Peak": 1
+                },
+                "width": 576,
+                "zoomCover": {
+                    "240": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/943ea912edb44a08a0c2b640daab703b_1617900787~tplv-f5insbecw7-1:240:240.jpeg?x-expires=1662775200&x-signature=2P2RSoepql6qyCrNBLvuZdaAYYo%3D",
+                    "480": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/943ea912edb44a08a0c2b640daab703b_1617900787~tplv-f5insbecw7-1:480:480.jpeg?x-expires=1662775200&x-signature=9vwulf3Hpd%2BwZZcrBjqGUsZZptg%3D",
+                    "720": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/943ea912edb44a08a0c2b640daab703b_1617900787~tplv-f5insbecw7-1:720:720.jpeg?x-expires=1662775200&x-signature=lHpp4c%2F5faxTlpFMGwykKxaSmto%3D",
+                    "960": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/943ea912edb44a08a0c2b640daab703b_1617900787~tplv-f5insbecw7-1:960:960.jpeg?x-expires=1662775200&x-signature=XPdXDZEm%2F0iI%2FLa6TKgwPt2aOgg%3D"
+                }
+            },
+            "vl1": false
+        }
+    },
+    "log_pb": {
+        "impr_id": "20220909201005010192058077272EB0CB"
+    },
+    "shareMeta": {
+        "desc": "phil and me cruising #fyp #pleasedontgo",
+        "title": "Mr. Michael on TikTok"
+    },
+    "statusCode": 0,
+    "status_code": 0
+}

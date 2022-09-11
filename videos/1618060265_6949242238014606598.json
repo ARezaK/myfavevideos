@@ -1,0 +1,391 @@
+{
+    "extra": {
+        "fatal_item_ids": [],
+        "logid": "20220909200945010189048210132E8464",
+        "now": 1662754185000
+    },
+    "itemInfo": {
+        "itemStruct": {
+            "adAuthorization": false,
+            "adLabelVersion": 0,
+            "author": {
+                "avatarLarger": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/6475286658de2003c75cddfb9a3c543d~c5_1080x1080.jpeg?x-expires=1662926400&x-signature=tNFzGoU1N2Veu7MbBQZKFLIIY3E%3D",
+                "avatarMedium": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/6475286658de2003c75cddfb9a3c543d~c5_720x720.jpeg?x-expires=1662926400&x-signature=S6WIkWebL2HwB85oycEKXNhC%2FwU%3D",
+                "avatarThumb": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/6475286658de2003c75cddfb9a3c543d~c5_100x100.jpeg?x-expires=1662926400&x-signature=SqoVjGKG%2F5TTo387wVVPTNoUs2Y%3D",
+                "commentSetting": 0,
+                "downloadSetting": 0,
+                "duetSetting": 0,
+                "ftc": false,
+                "id": "6904702506791666694",
+                "isADVirtual": false,
+                "nickname": "Mama \ud83c\uddf5\ud83c\udded\ud83d\udc75\ud83c\udffd",
+                "openFavorite": false,
+                "privateAccount": false,
+                "relation": 0,
+                "secUid": "MS4wLjABAAAAPfz9PjKssWKuYNNsOo6N3fRXMuSsYb31VQJNvr5bWeF8GInS8TM2-GbcU1l8UWVL",
+                "secret": false,
+                "signature": "\ud83c\uddf5\ud83c\udded\ud83d\udc75\ud83c\udffd\nshe\u2019s \u2728our\u2728 grandma (lola) now\n\ud83d\udce7 ourfilipinograndma@gmail.com",
+                "stitchSetting": 0,
+                "ttSeller": false,
+                "uniqueId": "ourfilipinograndma",
+                "verified": false
+            },
+            "authorStats": {
+                "diggCount": 13200,
+                "followerCount": 1400000,
+                "followingCount": 75,
+                "heart": 48300000,
+                "heartCount": 48300000,
+                "videoCount": 393
+            },
+            "challenges": [
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "80034442",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 490,
+                        "viewCount": 0
+                    },
+                    "title": "filipinograndmas"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "66787089",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 385,
+                        "viewCount": 0
+                    },
+                    "title": "filipinograndma"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "1672050633419078",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 388,
+                        "viewCount": 0
+                    },
+                    "title": "\ud83c\uddf5\ud83c\udded\ud83d\udc75\ud83c\udffd"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "54389",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 231900,
+                        "viewCount": 0
+                    },
+                    "title": "lola"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "1625006460756998",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 60100,
+                        "viewCount": 0
+                    },
+                    "title": "grandmasoftiktok"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "",
+                    "id": "323366",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 96000,
+                        "viewCount": 0
+                    },
+                    "title": "pickupline"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "You think you've got game? Show us your smoothest, most charming pickup lines using #PickUpLines \ud83d\ude0f",
+                    "id": "487475",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 53500,
+                        "viewCount": 0
+                    },
+                    "title": "pickuplines"
+                },
+                {
+                    "coverLarger": "",
+                    "coverMedium": "",
+                    "coverThumb": "",
+                    "desc": "What's the cheesiest pick-up line you've ever heard? The cringier - the better!\ud83d\ude44",
+                    "id": "3823374",
+                    "isCommerce": false,
+                    "profileLarger": "",
+                    "profileMedium": "",
+                    "profileThumb": "",
+                    "stats": {
+                        "videoCount": 5780,
+                        "viewCount": 0
+                    },
+                    "title": "cheesypickuplines"
+                }
+            ],
+            "createTime": 1617996546,
+            "desc": "Lola\u2019s favorite tea \ud83c\udf75 ib: @s2p33d #filipinograndmas #filipinograndma #\ud83c\uddf5\ud83c\udded\ud83d\udc75\ud83c\udffd #lola #grandmasoftiktok #pickupline #pickuplines #cheesypickuplines",
+            "digged": false,
+            "duetDisplay": 0,
+            "duetEnabled": true,
+            "duetInfo": {
+                "duetFromId": "0"
+            },
+            "forFriend": false,
+            "id": "6949242238014606598",
+            "isActivityItem": false,
+            "isAd": false,
+            "itemCommentStatus": 0,
+            "itemMute": false,
+            "mixInfo": {
+                "id": "6973699244632869637",
+                "name": "#GrannyGotGame",
+                "videoCount": 40
+            },
+            "music": {
+                "album": "",
+                "authorName": "favsoundds",
+                "coverLarge": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/9511326c64655fc9651fb4cf2eb8167d~c5_1080x1080.jpeg?x-expires=1662926400&x-signature=gMENxTbBR70h04wnqEIdC4SJi20%3D",
+                "coverMedium": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/9511326c64655fc9651fb4cf2eb8167d~c5_720x720.jpeg?x-expires=1662926400&x-signature=3Z4OupS34owje%2BygCkOXIJ%2BpDvk%3D",
+                "coverThumb": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/9511326c64655fc9651fb4cf2eb8167d~c5_100x100.jpeg?x-expires=1662926400&x-signature=nWOEF2Vuxa4AsGSCHPdYZ0uI%2Bmk%3D",
+                "duration": 28,
+                "id": "6905484726061091585",
+                "original": true,
+                "playUrl": "https://sf16-ies-music-sg.tiktokcdn.com/obj/tiktok-obj/6905484684084873985.mp3",
+                "title": "dead man walking"
+            },
+            "officalItem": false,
+            "originalItem": false,
+            "privateItem": false,
+            "secret": false,
+            "shareEnabled": true,
+            "showNotPass": false,
+            "stats": {
+                "commentCount": 42800,
+                "diggCount": 1900000,
+                "playCount": 7300000,
+                "shareCount": 173300
+            },
+            "stickersOnItem": [
+                {
+                    "stickerText": [
+                        "You wanna know my favorite tea?",
+                        "\u2728You, shawTEA\u2728"
+                    ],
+                    "stickerType": 4
+                }
+            ],
+            "stitchDisplay": 0,
+            "stitchEnabled": true,
+            "textExtra": [
+                {
+                    "awemeId": "",
+                    "end": 34,
+                    "hashtagId": "",
+                    "hashtagName": "",
+                    "isCommerce": false,
+                    "secUid": "MS4wLjABAAAA3x2aQ5FBEaHgFUL2V7PyUSuS5GNLzGn8BnkHDyiMcItwD39lRGoB3JJzrb2T4Vql",
+                    "start": 27,
+                    "subType": 0,
+                    "type": 0,
+                    "userId": "6859697988181558273",
+                    "userUniqueId": "s2p33d"
+                },
+                {
+                    "awemeId": "",
+                    "end": 52,
+                    "hashtagId": "80034442",
+                    "hashtagName": "filipinograndmas",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 35,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 69,
+                    "hashtagId": "66787089",
+                    "hashtagName": "filipinograndma",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 53,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 79,
+                    "hashtagId": "1672050633419078",
+                    "hashtagName": "\ud83c\uddf5\ud83c\udded\ud83d\udc75\ud83c\udffd",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 70,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 85,
+                    "hashtagId": "54389",
+                    "hashtagName": "lola",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 80,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 103,
+                    "hashtagId": "1625006460756998",
+                    "hashtagName": "grandmasoftiktok",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 86,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 115,
+                    "hashtagId": "323366",
+                    "hashtagName": "pickupline",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 104,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 128,
+                    "hashtagId": "487475",
+                    "hashtagName": "pickuplines",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 116,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                },
+                {
+                    "awemeId": "",
+                    "end": 147,
+                    "hashtagId": "3823374",
+                    "hashtagName": "cheesypickuplines",
+                    "isCommerce": false,
+                    "secUid": "",
+                    "start": 129,
+                    "subType": 0,
+                    "type": 1,
+                    "userId": "",
+                    "userUniqueId": ""
+                }
+            ],
+            "video": {
+                "bitrate": 1209060,
+                "codecType": "h264",
+                "cover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/cb9878137ca344f483fc65016bf9d111?x-expires=1662775200&x-signature=M%2FYUhL2t7%2B%2BtmR8RQ7N80ksv%2Ba0%3D",
+                "definition": "720p",
+                "downloadAddr": "https://v16-webapp.tiktok.com/d494fec012825bb1117df331dea255e2/631bf1f2/video/tos/useast2a/tos-useast2a-pve-0068/ba973df326864409a877673915888a4d/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=2360&bt=1180&cs=0&ds=3&ft=eXd.6H-qMyq8Zf-Dxhe2NN.oyl7Gb&mime_type=video_mp4&qs=0&rc=aDU7Ojo6OGVnZjRpPDs5OEBpM255dDhkOXlkNDMzNzczM0A1NC4yXi81NWExM2AxMzYxYSNeMzEvbGpvaWxgLS1kMTZzcw%3D%3D&l=20220909200945010189048210132E8464&btag=80000",
+                "duration": 9,
+                "dynamicCover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/5223355198b141daa7ca7ac3f9e9d66d_1617996548?x-expires=1662775200&x-signature=RdlktrYsHvW7Os15sHDH3NpHBL0%3D",
+                "encodeUserTag": "",
+                "encodedType": "normal",
+                "format": "mp4",
+                "height": 1024,
+                "id": "6949242238014606598",
+                "originCover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/8c65fc9d35854f759afe0f1fcee33ac4_1617996554?x-expires=1662775200&x-signature=81S2j0NXmvon9V0jYVkpay96%2FOM%3D",
+                "playAddr": "https://v16-webapp.tiktok.com/d494fec012825bb1117df331dea255e2/631bf1f2/video/tos/useast2a/tos-useast2a-pve-0068/ba973df326864409a877673915888a4d/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=2360&bt=1180&cs=0&ds=3&ft=eXd.6H-qMyq8Zf-Dxhe2NN.oyl7Gb&mime_type=video_mp4&qs=0&rc=aDU7Ojo6OGVnZjRpPDs5OEBpM255dDhkOXlkNDMzNzczM0A1NC4yXi81NWExM2AxMzYxYSNeMzEvbGpvaWxgLS1kMTZzcw%3D%3D&l=20220909200945010189048210132E8464&btag=80000",
+                "ratio": "720p",
+                "reflowCover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/cb9878137ca344f483fc65016bf9d111?x-expires=1662775200&x-signature=M%2FYUhL2t7%2B%2BtmR8RQ7N80ksv%2Ba0%3D",
+                "shareCover": [
+                    "",
+                    "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/8c65fc9d35854f759afe0f1fcee33ac4_1617996554~tplv-tiktok-play.jpeg?x-expires=1663358400&x-signature=MjJJIJkQ7JX961se9oHEcEYuXSM%3D",
+                    "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/8c65fc9d35854f759afe0f1fcee33ac4_1617996554~tplv-tiktokx-share-play.jpeg?x-expires=1663358400&x-signature=mykNSCNj%2BZgWhQkl18FIAc%2BMlHE%3D"
+                ],
+                "videoQuality": "normal",
+                "volumeInfo": {
+                    "Loudness": -23.3,
+                    "Peak": 0.5559
+                },
+                "width": 576,
+                "zoomCover": {
+                    "240": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/cb9878137ca344f483fc65016bf9d111~tplv-f5insbecw7-1:240:240.jpeg?x-expires=1662775200&x-signature=1EA%2BR1vBQvbq5dSbYyvPyIdQpRA%3D",
+                    "480": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/cb9878137ca344f483fc65016bf9d111~tplv-f5insbecw7-1:480:480.jpeg?x-expires=1662775200&x-signature=OScDMKqvEMD45ntrnGcpO3AAZQw%3D",
+                    "720": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/cb9878137ca344f483fc65016bf9d111~tplv-f5insbecw7-1:720:720.jpeg?x-expires=1662775200&x-signature=i%2B9phdnlHtFHoQvXaU9Gs%2FV87M0%3D",
+                    "960": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/cb9878137ca344f483fc65016bf9d111~tplv-f5insbecw7-1:960:960.jpeg?x-expires=1662775200&x-signature=0FUFf5t1x14G1wX3Se1HWrSwnFI%3D"
+                }
+            },
+            "vl1": false
+        }
+    },
+    "log_pb": {
+        "impr_id": "20220909200945010189048210132E8464"
+    },
+    "shareMeta": {
+        "desc": "Lola\u2019s favorite tea \ud83c\udf75 ib: @s2p33d #filipinograndmas #filipinograndma #\ud83c\uddf5\ud83c\udded\ud83d\udc75\ud83c\udffd #lola #grandmasoftiktok #pickupline #pickuplines #cheesypickuplines",
+        "title": "Mama \ud83c\uddf5\ud83c\udded\ud83d\udc75\ud83c\udffd on TikTok"
+    },
+    "statusCode": 0,
+    "status_code": 0
+}
