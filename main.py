@@ -139,6 +139,19 @@ def delete(filename):
     os.remove(filename.replace('#', '%23').replace('mp4', '%s' % file_format))
     return "deleted"
 
+@app.route('/upload', methods=['POST'])
+def upload():
+    print(request.files)
+    file = request.files['file']
+    # if files is .jpg or .png save in pictures folder
+    if file.filename.endswith('.jpg') or file.filename.endswith('.png'):
+        # save in pictures folder
+        file.save(os.path.join(dir_path + "/pictures", file.filename))
+    # if files is .mp4 save in videos folder
+    if file.filename.endswith('.mp4'):
+        # save in videos folder
+        file.save(os.path.join(dir_path + "/videos", file.filename))
+    return "uploaded"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=False, threaded=True)
