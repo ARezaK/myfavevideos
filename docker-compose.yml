@@ -10,7 +10,7 @@ services:
     volumes: # Mounts the current directory to the container so that changes are reflected
       - .:/app
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:5000"]
+      test: ["CMD", "curl", "-f", "http://localhost"]
       interval: 1m30s
       timeout: 10s
       retries: 3
