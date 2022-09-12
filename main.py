@@ -27,7 +27,7 @@ TEMPLATE = '''
 <style>
 body {
 margin: 0;
-background-color: #333;
+background-color: #dfb878;
 }
 .image {
 display: inline-block;
@@ -37,6 +37,18 @@ box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 img {
 display: block;
+}
+.video-container {
+   position: relative;
+   display: -webkit-inline-box;
+}
+
+.title-label {
+   position: absolute;
+   z-index: 9;
+   color: blue;
+   margin-top: 5px;
+   margin-left: 5px;
 }
 
 .video {
@@ -56,11 +68,15 @@ video::-webkit-media-controls {
 <body>
 
 {% for video in videos %}
+<div class="video-container">
+   <label class="title-label">{{video.src}}</label>
 <video class='lazy' width="420" height="500" controls loop preload="metadata">
   <source data-src="{{video.src}}#t=0.1" type="video/mp4">
 </video>
     <a href="delete/{{video.src}}">delete</a>
+    </div>
 {% endfor %}
+
 
 {% for image in images %}
     <a class="image" href="{{ image.src }}" >
