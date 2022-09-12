@@ -12,10 +12,11 @@ app = Flask(__name__)
 dir_path = os.path.dirname(os.path.abspath(__file__))
 print(dir_path)
 
-file_format = 'jpeg'
+file_format = 'jpeg'  # not sure what this is used for
 
-WIDTH = 400
-HEIGHT = 200
+# video limit
+video_limit = 100
+
 
 TEMPLATE = '''
 <!DOCTYPE html>
@@ -70,17 +71,6 @@ video::-webkit-media-controls {
 {% endfor %}
 
 <script>
-var figure = $(".video").hover( hoverVideo, hideVideo );
-
-function hoverVideo(e) {  
-    $('video', this).get(0).play(); 
-}
-
-function hideVideo(e) {
-    $('video', this).get(0).pause(); 
-}
-</script>
-<script>
 var lazyLoadInstance = new LazyLoad({
   // Your custom settings go here
 });
@@ -120,8 +110,9 @@ def index():
     for root, dirs, files in os.walk('.'):
         f_ = [os.path.join(root,name) for name in files]
         random.shuffle(f_)
-        for filename in f_:
-            # load the images
+        # enumerate below and stop at video_limit
+        for i, filename in enumerate(f_):
+            # load the images, not really using this for now b/c no good way of searching
             if filename.endswith('.png'):
                 images.append({'src': filename})
             if filename.endswith('.mp4'):
@@ -129,6 +120,8 @@ def index():
                     'image_src': filename.replace('#', '%23').replace('mp4', '%s' % file_format),
                     'src': filename.replace('#', '%23')
                 })
+            if i > video_limit:
+                break
 
     return render_template_string(TEMPLATE, **{
         'images': images,
