@@ -69,7 +69,7 @@ video::-webkit-media-controls {
 
 {% for video in videos %}
 <div class="video-container">
-   <label class="title-label">{{video.src}}</label>
+   <label class="title-label"><a href="{{video.src}}">{{video.src}}</a></label>
 <video class='lazy' width="420" height="500" controls loop preload="metadata">
   <source data-src="{{video.src}}#t=0.1" type="video/mp4">
 </video>
